@@ -1,0 +1,15 @@
+#wrapper {
+    margin:auto;
+    width:960px;
+}
+
+#main {
+    float:left;
+    width:640px;
+    margin-right:20px;
+}
+
+#sidebar {
+    float:right;
+    width:300px;
+}
