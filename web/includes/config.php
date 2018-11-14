@@ -3,13 +3,13 @@ ob_start();
 session_start();
 
 //database credentials
-$servername = "localhost";
-$username = "demo";
-$password = "demo";
+$servername = "us-cdbr-iron-east-01.cleardb.net";
+$username = "b4ed0754986cb8";
+$password = "9bb213c2";
 // Create connection
 
 
-    $db = new PDO("mysql:host=$servername;dbname=demo", $username);
+    $db = new PDO("mysql:host=$servername;dbname=heroku_3135687f86ceb36", $username);
     // set the PDO error mode to exception
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
