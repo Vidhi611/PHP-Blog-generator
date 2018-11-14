@@ -27,7 +27,8 @@
             <?php   
             try {
 
-                $stmt = $db->prepare('SELECT postID, postTitle, postSlug, postDesc, postDate, postTags FROM blog_posts_seo WHERE postTags like :postTags ORDER BY postID DESC');
+                $stmt = $db->prepare('SELECT postID, postTitle, postSlug, postDesc, postDate, postTags FROM blog_posts 
+                    WHERE postTags like :postTags ORDER BY postID DESC');
                 $stmt->execute(array(':postTags' => '%'.$_GET['id'].'%'));
                 while($row = $stmt->fetch()){
                    
