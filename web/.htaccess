@@ -1,5 +1,4 @@
 RewriteEngine On
-RewriteBase http://glacial-tundra-58977.herokuapp.com/
 RewriteRule ^c-(.*)$ http://glacial-tundra-58977.herokuapp.com/catpost.php?id=$1 [L]
 RewriteRule ^t-(.*)$ http://glacial-tundra-58977.herokuapp.com/tagpost.php?id=$1 [L]
 RewriteRule ^a-(.*)-(.*)$ http://glacial-tundra-58977.herokuapp.com/archives.php?month=$1&year=$2 [L]
