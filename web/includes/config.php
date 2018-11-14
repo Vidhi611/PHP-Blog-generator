@@ -9,7 +9,7 @@ $password = "9bb213c2";
 // Create connection
 
 
-    $db = new PDO("mysql:host=$servername;dbname=heroku_3135687f86ceb36", $username);
+    $db = new PDO("mysql:host=$servername;dbname=heroku_3135687f86ceb36", $username, $password);
     // set the PDO error mode to exception
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
    
