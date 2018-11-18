@@ -1,3 +1,4 @@
 # PHP-Blog-generator
 
-Anumeha is the best thing to happen to me. - Mathew
+The heroku hosted app can be found here
+glacial-tundra-58977.herokuapp.com
